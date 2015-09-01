@@ -5,6 +5,12 @@
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"
 	type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"
+	type="text/javascript"></script>
+
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+
 <script src="resources/js/main.js" type="text/javascript"></script>
 </head>
 <body>
@@ -27,6 +33,10 @@
 	</div>
 	<div>
 		<a href="/esm/search">go to search page</a>
+	</div>
+
+	<div id="dialog" title="Success dialog" style="display:none">
+		<p>Registration Success.</p>
 	</div>
 
 </body>

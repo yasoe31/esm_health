@@ -29,7 +29,7 @@ $(function() {
 	   		data:JSON.stringify(completeObj),
 	   		processData: false,
 	   		success: function(){
-	   			
+	   			$( "#dialog" ).dialog();
 	   		},
 	   		error:function(){
 	   			
